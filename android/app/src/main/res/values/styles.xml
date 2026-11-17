@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lumi_background">#090516</color>
+    <color name="lumi_purple">#A21DFF</color>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/lumi_purple</item>
+        <item name="android:statusBarColor">@color/lumi_background</item>
+        <item name="android:navigationBarColor">@color/lumi_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/lumi_background</item>
+    </style>
+</resources>

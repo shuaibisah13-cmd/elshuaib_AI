@@ -1,3 +1,4 @@
+
 plugins {
     id 'com.android.application'
 }
@@ -5,6 +6,10 @@ plugins {
 android {
     namespace 'com.lumi.ai'
     compileSdk 35
+
+    buildFeatures {
+        buildConfig true
+    }
 
     defaultConfig {
         applicationId 'com.lumi.ai'
@@ -23,6 +28,7 @@ android {
         debug {
             applicationIdSuffix ''
         }
+
         release {
             minifyEnabled false
         }
